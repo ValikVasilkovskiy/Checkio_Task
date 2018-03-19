@@ -59,7 +59,3 @@ print(min((-9,)))
 print(min(2.2, 5.6, 5.9, key=int))
 print(min(2.2, 2.3, -5.6, -5.9, key=int))
 
-
-print(min((934,)))
-print(min(2.0, 5.9, 5.9, key=int))
-print(min(2.2, 2.3, 5.6, 5.0, key=int))
