@@ -6,13 +6,21 @@ class Friends():
         if data in self.connections:
             return False
         else:
-            self.connections.append(data)
-            return True
+            if type(self.connections) == set:
+                self.connections.add(data)
+                return True
+            else:
+                self.connections.append(data)
+                return True
 
     def remove(self, data):
         if data in self.connections:
-            self.connections.remove(data)
-            return True
+            if type(self.connections) == set:
+                self.connections.remove(data)
+                return True
+            else:
+                self.connections.remove(data)
+                return True
         else:
             return False
 
@@ -22,6 +30,18 @@ class Friends():
             for j in i:
                 if j not in stack:
                     stack.append(j)
+        return set(stack)
+
+    def connected(self, name):
+        stack = []
+        for i in self.connections:
+            if name in i:
+                listed = list(i)
+                ind = listed.index(name)
+                if ind == 0:
+                    stack.append(listed[1])
+                else:
+                    stack.append(listed[0])
         return set(stack)
 
 
@@ -39,3 +59,8 @@ print(s.remove({'4', '5'}))
 # test names
 r = Friends([{"a", "b"}, {"b", "c"}, {"c", "d"}])
 print(r.names())
+
+# test connected
+c = Friends(({"a", "b"}, {"b", "c"}, {"c", "a"}))
+print(c.connected("a"))
+print(c.connected("r"))

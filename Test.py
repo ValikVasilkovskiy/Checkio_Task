@@ -1,10 +1,7 @@
 s = [{'1', '2'}, {'3', '4'}]
-data = {'2', '1'}
-
-for i in s:
-    if i == data:
-        print(True)
-
+l = list(s[0])
+print(l)
+print(l[1])
 
 
 
