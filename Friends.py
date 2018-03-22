@@ -16,15 +16,26 @@ class Friends():
         else:
             return False
 
+    def names(self):
+        stack = []
+        for i in self.connections:
+            for j in i:
+                if j not in stack:
+                    stack.append(j)
+        return set(stack)
+
+
 # test add (self.connection append data + Tru when set or reversed set not in self.connections )
 f = Friends([{'1', '2'}, {'3', '1'}])
 print(f.add({'2', '1'}))
 print(f.add({'5', '1'}), end='\n\n')
 
-# test (self.connections.remove(i) when data in self.connections)
+# test remove (self.connections.remove(i) when data in self.connections)
 
 s = Friends([{'1', '2'}, {'3', '1'}])
 print(s.remove({'1', '3'}))
 print(s.remove({'4', '5'}))
 
-# test 3
+# test names
+r = Friends([{"a", "b"}, {"b", "c"}, {"c", "d"}])
+print(r.names())
