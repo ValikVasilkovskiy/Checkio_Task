@@ -26,3 +26,5 @@ print(f.add({'5', '1'}), end='\n\n')
 s = Friends([{'1', '2'}, {'3', '1'}])
 print(s.remove({'1', '3'}))
 print(s.remove({'4', '5'}))
+
+# test 3
