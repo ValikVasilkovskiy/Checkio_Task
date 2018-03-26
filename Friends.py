@@ -1,3 +1,14 @@
+"""
+Input: Statements and expression with the Friends class.
+Output: The behaviour as described.
+Example:
+f = Friends([{"1", "2"}, {"3", "1"}])
+f.add({"1", "3"})
+>> False
+f.add({"4", "5"})
+>> True
+"""
+
 class Friends():
     def __init__(self, connections):
         self.connections = connections
@@ -6,21 +17,18 @@ class Friends():
         if data in self.connections:
             return False
         else:
-            if type(self.connections) == set:
-                self.connections.add(data)
-                return True
-            else:
-                self.connections.append(data)
-                return True
+            list_tuple = list(self.connections)
+            list_tuple.append(set(data))
+            self.connections = tuple(list_tuple)
+            print(self.connections)
+            return True
 
     def remove(self, data):
         if data in self.connections:
-            if type(self.connections) == set:
-                self.connections.remove(data)
-                return True
-            else:
-                self.connections.remove(data)
-                return True
+            list_tuple = list(self.connections)
+            list_tuple.remove(set(data))
+            self.connections = tuple(list_tuple)
+            return True
         else:
             return False
 
@@ -46,13 +54,13 @@ class Friends():
 
 
 # test add (self.connection append data + Tru when set or reversed set not in self.connections )
-f = Friends([{'1', '2'}, {'3', '1'}])
+f = Friends(({'1', '2'}, {'3', '1'}))
 print(f.add({'2', '1'}))
 print(f.add({'5', '1'}), end='\n\n')
 
 # test remove (self.connections.remove(i) when data in self.connections)
 
-s = Friends([{'1', '2'}, {'3', '1'}])
+s = Friends(({'1', '2'}, {'3', '1'}))
 print(s.remove({'1', '3'}))
 print(s.remove({'4', '5'}))
 
