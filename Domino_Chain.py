@@ -1,8 +1,8 @@
 import itertools
 
-def domino_chain(chain):
-    stack, temp_stack, chain_stack, r = [], [], [], len(chain.split(','))
-    for i in chain:
+def domino_chain(tiles: str):
+    stack, temp_stack, chain_stack, r = [], [], [], len(tiles.split(','))
+    for i in tiles:
         if i.isdigit():
             temp_stack.append(int(i))
             if len(temp_stack) == 2:
@@ -11,9 +11,7 @@ def domino_chain(chain):
                 temp_stack = []
     for i in list(itertools.permutations(stack, r)):
         for j in range(len(i)-1):
-            if i[j][1] == i[j+1][0]:
-                continue
-            else:
+            if i[j][1] != i[j+1][0]:
                 break
         else:
             for part in stack:
@@ -26,8 +24,10 @@ def domino_chain(chain):
                     chain_stack.append(i)
     return len(chain_stack)
 
-print(domino_chain("0-2, 0-5, 1-5, 1-3, 5-5"))
-print(domino_chain("1-5, 2-5, 3-5, 4-5, 3-4"))
-print(domino_chain("0-5, 1-5, 2-5, 3-5, 4-5, 3-4"))
+# test
+print(domino_chain("0-2, 0-5, 1-5, 1-3, 5-5")) # return 1 combination
+print(domino_chain("1-5, 2-5, 3-5, 4-5, 3-4")) # return 2 combination
+print(domino_chain("0-5, 1-5, 2-5, 3-5, 4-5, 3-4")) # return 0 combination
+print(domino_chain("1-2, 1-4, 1-5, 1-6, 1-1, 2-5, 4-6")) # 28
 
 
