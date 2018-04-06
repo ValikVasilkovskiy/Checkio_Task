@@ -31,7 +31,7 @@ def domino_chain(tiles: str):
                 if i not in domino_combinations and tuple(reversed(tuple(map(lambda x: tuple(reversed(x)),i)))) not in domino_combinations:
                     domino_combinations.append(i)
 
-    return domino_combinations
+    return len(domino_combinations)
 
 # test
 print(domino_chain("0-2, 0-5, 1-5, 1-3, 5-5")) # return 1 combination
