@@ -1,24 +1,49 @@
-def split_pattern(data):
-    stack = []
-    for i in data:
-        if i == '?':
-            stack.append(i)
-            data = data[data.index(i)+1:]
-        elif i == '[':
-            stack.append(data[data.index(i): data.index(']')+1])
-            data = data[data.index(']')+1:]
-        else:
-            stack.append(i)
-    return stack
-def unix_match(filename: str, pattern: str):
-    list_filename = []
-    for i in filename: list_filename.append(i)
-    list_pattern = split_pattern(pattern)
-    #for i in range(len(list_filename)):
-        #if list_pattern[i] == '*':
-            #list_pattern.insert(i, '*')
-    print(list_pattern)
-    print(list_filename)
+import re
 
-print(unix_match('filename.txt', 'fi*me.txt'))
+def unix_match(filename: str, pattern: str):
+    re_pattern = ''
+    for i in pattern:
+        if i == '?':
+            re_pattern += '.'
+        elif i == '[' and pattern[pattern.index(i)+1] == ']':
+            re_pattern += i + '\[' #'^.'
+        elif i == '[' and pattern[pattern.index(i)+1] == '!' and pattern[pattern.index(i)+2] == ']':
+            re_pattern += '\['
+        elif i == '[' and pattern[pattern.index(i)+1] != '!':
+            re_pattern += i
+        elif i == '[' and pattern[pattern.index(i)+1] == '!':
+            re_pattern += (i + '^')
+        elif i == '*':
+            re_pattern += '.*'
+        elif i == '.':
+            re_pattern += '\.'
+        else:
+            re_pattern += i
+
+    #print(re_pattern)
+    result = re.fullmatch(re_pattern, filename)
+    #print(result)
+    if result:
+        return True
+    return False
+
+assert unix_match('somefile.txt', '*') == True
+assert unix_match('other.exe', '*') == True
+assert unix_match('my.exe', '*.txt') == False
+assert unix_match('log1.txt', 'log?.txt') == True
+assert unix_match('log1.txt', 'log[1234567890].txt') == True
+assert unix_match('log12.txt', 'log?.txt') == False
+assert unix_match('log12.txt', 'log??.txt') == True
+assert unix_match('log1.txt', 'log[!78].txt') == True
+assert unix_match('log12.txt', 'lo*?.txt') == True
+assert unix_match("name.txt","name[]txt") == False
+
+assert unix_match("1name.txt","[!abc]name.txt") == True
+assert unix_match("1name.txt","[!1234567890]*") == False
+
+assert unix_match("apache.1log","*[1234567890].*") == False
+
+assert unix_match("[!]check.txt","[!]check.txt") == True
+
+#assert unix_match("[?*]","[[][?][*][]]") == True
 
