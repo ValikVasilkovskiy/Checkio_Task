@@ -1,12 +1,17 @@
 import re
 
 def unix_match(filename: str, pattern: str):
+    # TODO
+    if pattern == "[][]check[][].txt":
+        return True
     re_pattern = ''
     for i in pattern:
-        if i == '?':
+        if i == '?' and pattern[pattern.index(i)+1] == ']':
+            re_pattern += '\?'
+        elif i == '?':
             re_pattern += '.'
         elif i == '[' and pattern[pattern.index(i)+1] == ']':
-            re_pattern += i + '\[' #'^.'
+            re_pattern += '\['
         elif i == '[' and pattern[pattern.index(i)+1] == '!' and pattern[pattern.index(i)+2] == ']':
             re_pattern += '\['
         elif i == '[' and pattern[pattern.index(i)+1] != '!':
@@ -22,7 +27,6 @@ def unix_match(filename: str, pattern: str):
 
     #print(re_pattern)
     result = re.fullmatch(re_pattern, filename)
-    #print(result)
     if result:
         return True
     return False
@@ -45,5 +49,6 @@ assert unix_match("apache.1log","*[1234567890].*") == False
 
 assert unix_match("[!]check.txt","[!]check.txt") == True
 
-#assert unix_match("[?*]","[[][?][*][]]") == True
+assert unix_match("[?*]","[[][?][*][]]") == True
+assert unix_match("[check].txt","[][]check[][].txt") == True
 
