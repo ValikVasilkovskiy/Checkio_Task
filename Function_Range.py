@@ -13,20 +13,44 @@ def modify_range(*args):
         start = args[0]
         end = args[1]
         step = args[2]
-    if start <= end:
+    if start < end and step > 0:
         while start < end:
             yield start
             start += step
-    else:
-        if step < 0:
-            while start > end:
-                yield start
-                start += step
+    elif start > end and step < 0:
+        while start > end:
+            yield start
+            start += step
 
+
+# test
 for i in modify_range(-1, -10, -1):
     print(i, end=' ')
-
 print()
-
 for i in range(-1, -10, -1):
     print(i, end=' ')
+print()
+for i in modify_range(10):
+    print(i, end=' ')
+print()
+for i in range(10):
+    print(i, end=' ')
+print()
+for i in modify_range(4, 10):
+    print(i, end=' ')
+print()
+for i in range(4, 10):
+    print(i, end=' ')
+print()
+for i in modify_range(10, 1, -1):
+    print(i, end=' ')
+print()
+for i in range(10, 1, -1):
+    print(i, end=' ')
+print()
+for i in modify_range(-10, -1, 1):
+    print(i, end=' ')
+print()
+for i in range(-10, -1, 1):
+    print(i, end=' ')
+print()
