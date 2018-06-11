@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CheckIO.iml" filepath="$PROJECT_DIR$/.idea/CheckIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Flask_Spalah/.idea/Flask_Spalah.iml" filepath="$PROJECT_DIR$/../Flask_Spalah/.idea/Flask_Spalah.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Wish_List/.idea/Wish_List.iml" filepath="$PROJECT_DIR$/../Wish_List/.idea/Wish_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../batfair_bet365_parser/.idea/batfair_bet365_parser.iml" filepath="$PROJECT_DIR$/../batfair_bet365_parser/.idea/batfair_bet365_parser.iml" />
     </modules>
   </component>
 </project>
