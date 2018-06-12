@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Checkio_Task$betfairp.coverage" NAME="betfairp Coverage Results" MODIFIED="1528749796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
+    <SUITE FILE_PATH="coverage/Checkio_Task$betfairp.coverage" NAME="betfairp Coverage Results" MODIFIED="1528811744087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
     <SUITE FILE_PATH="coverage/Checkio_Task$app.coverage" NAME="app Coverage Results" MODIFIED="1527073140106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Flask_Spalah" />
     <SUITE FILE_PATH="coverage/Checkio_Task$betfair_betfairlightweight.coverage" NAME="betfair_betfairlightweight Coverage Results" MODIFIED="1528707510205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
     <SUITE FILE_PATH="coverage/Checkio_Task$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1527676906824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Wish_List/web" />
@@ -26,6 +26,7 @@
     <SUITE FILE_PATH="coverage/Checkio_Task$auto_ria_scrapping.coverage" NAME="auto_ria_scrapping Coverage Results" MODIFIED="1528384376541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Checkio_Task$test.coverage" NAME="test Coverage Results" MODIFIED="1528736097793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
     <SUITE FILE_PATH="coverage/Checkio_Task$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1528465149886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Checkio_Task$bet356.coverage" NAME="bet356 Coverage Results" MODIFIED="1528791832995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
     <SUITE FILE_PATH="coverage/Checkio_Task$betfair_pars.coverage" NAME="betfair_pars Coverage Results" MODIFIED="1528704808202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
     <SUITE FILE_PATH="coverage/Checkio_Task$app_flask_mysql.coverage" NAME="app_flask_mysql Coverage Results" MODIFIED="1527149667906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MySQL_Test_SQLAlchemy" />
     <SUITE FILE_PATH="coverage/Checkio_Task$betfair_parser.coverage" NAME="betfair_parser Coverage Results" MODIFIED="1528651967925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../batfair_bet365_parser" />
@@ -44,10 +45,22 @@
       <file leaf-file-name="betfairp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/betfairp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44067797">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.1570249">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bet356.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/bet356.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +124,7 @@
         <option value="$PROJECT_DIR$/../batfair_bet365_parser/betfair_betfair_lib.py" />
         <option value="$PROJECT_DIR$/../batfair_bet365_parser/betfair_parser.py" />
         <option value="$PROJECT_DIR$/../batfair_bet365_parser/requirements.txt" />
+        <option value="$PROJECT_DIR$/../batfair_bet365_parser/bet356.py" />
         <option value="$PROJECT_DIR$/../batfair_bet365_parser/betfairp.py" />
       </list>
     </option>
@@ -123,9 +137,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="336" />
-    <option name="width" value="1035" />
-    <option name="height" value="735" />
+    <option name="x" value="805" />
+    <option name="y" value="2" />
+    <option name="width" value="1123" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -214,24 +229,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.betfairp">
-    <configuration default="false" name="betfair_pars" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../batfair_bet365_parser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="batfair_bet365_parser" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\vasilkovskiy\PycharmProjects\batfair_bet365_parser\betfair_betfair_lib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="betfair_betfair_lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,6 +297,24 @@
       <module name="batfair_bet365_parser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../batfair_bet365_parser/betfairp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bet356" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../batfair_bet365_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="batfair_bet365_parser" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../batfair_bet365_parser/bet356.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -493,19 +508,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.betfair_pars" />
-      <item index="1" class="java.lang.String" itemvalue="Python.betfair_betfair_lib" />
-      <item index="2" class="java.lang.String" itemvalue="Python.betfair_betfairlightweight" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.betfairp" />
+      <item index="0" class="java.lang.String" itemvalue="Python.betfair_betfair_lib" />
+      <item index="1" class="java.lang.String" itemvalue="Python.betfair_betfairlightweight" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.betfairp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bet356" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.betfairp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.betfair_betfair_lib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.betfair_betfairlightweight" />
-        <item index="4" class="java.lang.String" itemvalue="Python.betfair_pars" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bet356" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.betfair_betfair_lib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.betfair_betfairlightweight" />
       </list>
     </recent_temporary>
   </component>
@@ -598,11 +613,35 @@
       <option name="project" value="LOCAL" />
       <updated>1528747315297</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add berfair (work data)">
+      <created>1528749831587</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528749831587</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modify betfair">
+      <created>1528782329098</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528782329098</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modify betfair and bet365">
+      <created>1528788401487</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528788401487</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modify betfair and bet365 (work)">
+      <created>1528806092763</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528806092763</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="336" y="0" width="1035" height="735" extended-state="0" />
+    <frame x="805" y="2" width="1123" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -611,9 +650,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3464567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48402557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32371795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30225712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18247516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -651,7 +690,11 @@
     <MESSAGE value="add betfair_parser branch" />
     <MESSAGE value="modify betfair_parser" />
     <MESSAGE value="add berfair" />
-    <option name="LAST_COMMIT_MESSAGE" value="add berfair" />
+    <MESSAGE value="add berfair (work data)" />
+    <MESSAGE value="modify betfair" />
+    <MESSAGE value="modify betfair and bet365" />
+    <MESSAGE value="modify betfair and bet365 (work)" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify betfair and bet365 (work)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,16 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/bet356.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5504587">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.110091746">
@@ -947,10 +980,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/bet356.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../batfair_bet365_parser/betfairp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44067797">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.1570249">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
