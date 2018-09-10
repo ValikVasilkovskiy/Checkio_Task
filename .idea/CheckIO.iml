@@ -8,5 +8,6 @@
     <orderEntry type="module" module-name="MySQL_Test_SQLAlchemy" />
     <orderEntry type="module" module-name="Wish_List" />
     <orderEntry type="module" module-name="batfair_bet365_parser" />
+    <orderEntry type="module" module-name="Baseball match parser" />
   </component>
 </module>
