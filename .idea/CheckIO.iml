@@ -9,5 +9,8 @@
     <orderEntry type="module" module-name="Wish_List" />
     <orderEntry type="module" module-name="batfair_bet365_parser" />
     <orderEntry type="module" module-name="Baseball match parser" />
+    <orderEntry type="module" module-name="Iadfrance_Website_Parsing" />
+    <orderEntry type="module" module-name="Exhibitors Parser" />
+    <orderEntry type="module" module-name="Bunnings Parser" />
   </component>
 </module>
